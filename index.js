@@ -6,7 +6,7 @@ var app = express();
 
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/js', serveIndex('/public/js', {icons: true}));
+app.use(serveIndex('/ftp', {icons: true}));
 
 var listener = app.listen(process.env.PORT || 3000, function() {
     console.log('App listening at http://localhost:' + listener.address().port);
