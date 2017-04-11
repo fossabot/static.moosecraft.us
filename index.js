@@ -1,3 +1,4 @@
+var compression = require('compression');
 var express     = require('express');
 var path        = require('path');
 
@@ -5,6 +6,9 @@ var app = express();
 
 // add monitoring middleware
 app.use(require('express-status-monitor')());
+
+// add gzip compression to all assets
+app.use(compression);
 
 // let express serve static files
 app.use(express.static(path.join(__dirname, 'public')));
