@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // catch 404 errors to output them into the console log
 app.use(function (req, res, next) {
-    console.log(req);
+    console.log("Requested URL: " + req.url + " Status: 404");
     res.status(404).send('Unable to get the resource requested');
 })
 
