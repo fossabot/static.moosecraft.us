@@ -3,13 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Chris Miller -- Lead Dev -- https://christopherleemiller.me
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Node.js, materializecss, reactjs
