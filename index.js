@@ -1,14 +1,10 @@
 var express     = require('express');
-var spdy        = require('spdy');
 var path        = require('path');
-var fs          = require('fs');
 
 var app = express();
 
-const options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/static.moosecraft.us/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/static.moosecraft.us/cert.pem')
-}
+// add monitoring middleware
+app.use(require('express-status-monitor')());
 
 // let express serve static files
 app.use(express.static(path.join(__dirname, 'public')));
