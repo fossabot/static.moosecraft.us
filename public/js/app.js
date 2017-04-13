@@ -34978,16 +34978,6 @@ var Header = function (_React$Component) {
                                 'h6',
                                 null,
                                 'Welcome, Guest'
-                            ),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'a',
-                                { href: '#', className: 'btn white-text waves-effect waves-light brown lighten-1', id: 'signin' },
-                                'Login'
-                            ),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'a',
-                                { href: '#', className: 'btn white-text waves-effect waves-light brown lighten-1', id: 'register' },
-                                'Register'
                             )
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Widgets_OnlinePlayers_OnlinePlayersWidget__["a" /* default */], null),
@@ -35090,24 +35080,16 @@ var SideNav = function (_React$Component) {
                 'location': '#',
                 'icon': 'question',
                 'label': 'Server Information',
-                'children': [{ 'location': '/about', 'label': 'About Us' }, { 'location': '/rules', 'label': 'Rules' }, { 'location': '/join', 'label': 'Join' }, { 'location': '/ranks', 'label': 'Player Ranks' }, { 'location': '/detailed-status', 'label': 'Detailed Status' }]
+                'children': [{ 'location': '/about', 'label': 'About Us' }, { 'location': '/rules', 'label': 'Rules' }]
             }, {
                 'location': '#',
                 'icon': 'line-chart',
                 'label': 'Game Stats',
-                'children': [{ 'location': '/stats/server', 'label': 'Server' }, { 'location': '/stats/players', 'label': 'Players' }]
+                'children': [{ 'location': '/stats/players', 'label': 'Players' }]
             }, {
                 'location': '/map',
                 'icon': 'map-marker',
                 'label': 'Live Map'
-            }, {
-                'location': '/forums',
-                'icon': 'comments',
-                'label': 'Forums'
-            }, {
-                'location': '/gallery',
-                'icon': 'photo',
-                'label': 'Gallery'
             }]
         };
         return _this;
