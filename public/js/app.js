@@ -32946,15 +32946,8 @@ function warning(message) {
 
 
 
-if (__CLIENT__) {
-    var _store = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_redux__["a" /* createStore */])(__WEBPACK_IMPORTED_MODULE_4__reducers__["a" /* default */], window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-} else {
-    var _store2 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_redux__["a" /* createStore */])(__WEBPACK_IMPORTED_MODULE_4__reducers__["a" /* default */]);
-}
 
 /* harmony default export */ exports["a"] = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_2_react_redux__["a" /* Provider */],
-    { store: store },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_router__["Route"],
         { path: '/', component: __WEBPACK_IMPORTED_MODULE_9__src_layout_MainLayout_js__["a" /* default */] },
