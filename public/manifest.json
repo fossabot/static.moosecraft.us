@@ -40,7 +40,7 @@
     }
   ],
   "start_url": "/?utm_source=homescreen",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#4CAF50",
   "theme_color": "#4CAF50"
 }
