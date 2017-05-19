@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris Miller -- Lead Dev -- https://christopherleemiller.me
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Node.js, materializecss, reactjs
